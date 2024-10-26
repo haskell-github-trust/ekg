@@ -1,5 +1,5 @@
 name:               ekg
-version:            0.4.1.0
+version:            0.4.2.0
 cabal-version:      >=1.10
 synopsis:           Remote monitoring of processes
 description:
@@ -70,7 +70,7 @@ library
     , bytestring            <1.0
     , ekg-core              >=0.1 && <0.2
     , ekg-json              >=0.1 && <0.2
-    , filepath              <1.5
+    , filepath              <1.6
     , network               <3.3
     , snap-core             <1.1
     , snap-server           <1.2
