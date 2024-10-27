@@ -1,5 +1,5 @@
 name:               ekg
-version:            0.4.2.0
+version:            0.4.1.1
 cabal-version:      >=1.10
 synopsis:           Remote monitoring of processes
 description:

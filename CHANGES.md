@@ -1,3 +1,6 @@
+## 0.4.1.1 (2024-10-27)
+ * Support GHC 9.10
+
 ## 0.4.1.0 (2024-07-31)
 
 * Support various newer GHCs by expanding bounds.
