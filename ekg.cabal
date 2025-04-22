@@ -1,5 +1,5 @@
 name:               ekg
-version:            0.4.1.1
+version:            0.4.1.2
 cabal-version:      >=1.10
 synopsis:           Remote monitoring of processes
 description:
@@ -52,6 +52,7 @@ tested-with:
    || ==9.6.6
    || ==9.8.2
    || ==9.10.1
+   || ==9.12.2
 
 library
   exposed-modules:
@@ -67,7 +68,7 @@ library
 
   build-depends:
       aeson                 >=0.4 && <1.6  || >=2.0 && <2.3
-    , base                  >=4.5 && <4.21
+    , base                  >=4.5 && <4.22
     , bytestring            <1.0
     , ekg-core              >=0.1 && <0.2
     , ekg-json              >=0.1 && <0.2
@@ -76,7 +77,7 @@ library
     , snap-core             <1.1
     , snap-server           <1.2
     , text                  <2.2
-    , time                  <1.13
+    , time                  <1.15
     , transformers          <0.7
     , unordered-containers  <0.3
 
